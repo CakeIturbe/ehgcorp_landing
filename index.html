@@ -3,19 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad - EHG Coprorations</title>
+    <title>Mi Proyecto - Landing Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800 antialiased">
+<body class="bg-white text-gray-900 antialiased">
 
-    <nav class="p-6 max-w-4xl mx-auto flex justify-between items-center">
-        <a href="/" class="font-bold text-xl text-indigo-600">MiLogo</a>
-        <a href="/" class="text-sm font-medium hover:underline text-gray-500">Volver al Home</a>
+    <nav class="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
+        <div class="text-2xl font-bold tracking-tighter text-indigo-600">MiLogo</div>
+        <div class="space-x-8 hidden md:flex items-center">
+            <a href="#features" class="text-sm font-medium hover:text-indigo-600 transition">Características</a>
+            <a href="/privacy" class="text-sm font-medium hover:text-indigo-600 transition">Privacidad</a>
+            <a href="#" class="bg-indigo-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-indigo-700 transition">Comenzar</a>
+        </div>
     </nav>
 
-    <footer class="text-center py-10 text-gray-400 text-xs">
-        &copy; 2025 Mi Sitio. Todos los derechos reservados.
-    </footer>
+    <header class="max-w-6xl mx-auto px-6 pt-20 pb-32 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
+            Construye algo <span class="text-indigo-600">increíble</span> hoy mismo.
+        </h1>
+        <p class="text-xl text-gray-500 max-w-2xl mx-auto mb-10">
+            Esta es una landing page básica, rápida y optimizada. Ideal para presentar tu proyecto con un diseño profesional y limpio.
+        </p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <button class="bg-indigo-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:bg-indigo-700 transition">Saber más</button>
+            <button class="bg-gray-100 text-gray-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-200 transition">Ver Demo</button>
+        </div>
+    </header>
 
-</body>
-</html>
+    <section id="features" class="bg-gray-50 py-24">
